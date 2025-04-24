@@ -42,7 +42,7 @@ Edit
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/book-library-api.git
+git clone https://github.com/Hanorah/api.git
 cd book-library-api
 2. Install Dependencies
 bash
@@ -83,7 +83,7 @@ GET	/books	Get all books
 POST	/books	Add a new book
 PUT	/books/:id	Update a book
 DELETE	/books/:id	Delete a book (admin only)
-🧑 User Roles (in-memory)
+User Roles (in-memory)
 The app comes with a hardcoded admin user:
 
 pgsql
@@ -135,7 +135,3 @@ You can add token validation and expiration timeout.
 Add database support (MongoDB, PostgreSQL, etc.) for production use.
 
 Integrate with a frontend like React (see book-library-client repo).
-
-
-Questions?
-Feel free to open an issue or message me if you need help.
